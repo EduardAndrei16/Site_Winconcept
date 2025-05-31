@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | WinConcept Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .contact-info i {
+      font-size: 1.5rem;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-3" href="#">WINCONCEPT <span class="text-primary">DESIGN</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center gap-2">
+        <li class="nav-item">
+          <a class="btn btn-outline-primary px-4 py-2 fw-semibold" href="/index.html">Acasă</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary px-4 py-2 fw-semibold" href="/despre_noi.html">Despre Noi</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary px-4 py-2 fw-semibold" href="/produse.html">Produse</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary px-4 py-2 fw-semibold" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<header class="bg-light text-center py-5">
+  <div class="container">
+    <h1 class="fw-bold">Contactează-ne</h1>
+    <p class="lead">Suntem aici pentru orice întrebare sau ofertă personalizată</p>
+  </div>
+</header>
+
+<!-- Contact & Formular -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Informații contact -->
+      <div class="col-md-5">
+        <h4 class="fw-bold mb-4">Informații de contact</h4>
+        <p class="contact-info"><i class="bi bi-geo-alt-fill"></i> Str. Exemplu nr. 123, București, România</p>
+        <p class="contact-info"><i class="bi bi-telephone-fill"></i> 0722 123 456</p>
+        <p class="contact-info"><i class="bi bi-envelope-fill"></i> contact@winconcept.ro</p>
+        <h5 class="mt-4 fw-semibold">Program:</h5>
+        <p>Luni - Vineri: 9:00 - 18:00<br>Sâmbătă: 10:00 - 14:00<br>Duminică: Închis</p>
+      </div>
+
+      <!-- Formular -->
+      <div class="col-md-7">
+        <h4 class="fw-bold mb-4">Trimite-ne un mesaj</h4>
+        <form>
+          <div class="mb-3">
+            <label for="nume" class="form-label">Nume complet</label>
+            <input type="text" class="form-control" id="nume" placeholder="Numele tău" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Adresă email</label>
+            <input type="email" class="form-control" id="email" placeholder="exemplu@email.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="mesaj" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="mesaj" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Trimite mesajul</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hartă -->
+<section>
+  <div class="container-fluid px-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.078274119016!2d26.10253821553032!3d44.42676727910247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI1JzM2LjQiTiAyNsKwMDYnMTMuMCJF!5e0!3m2!1sro!2sro!4v1685636521000!5m2!1sro!2sro" 
+    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <div class="container">
+    &copy; 2025 WinConcept Design. Toate drepturile rezervate.
+  </div>
+</footer>
+
+<!-- Bootstrap & Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
